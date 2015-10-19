@@ -112,6 +112,10 @@ projects[mailchimp][version] = "2.12"
 projects[media][subdir] = "contrib"
 projects[media][version] = "1.5"
 
+; Replaces colorbox_file
+projects[media_colorbox][subdir] = "contrib"
+projects[media_colorbox][version] = "1.0-rc4"
+
 projects[media_dailymotion][subdir] = "contrib"
 projects[media_dailymotion][version] = "1.1"
 
@@ -217,14 +221,6 @@ projects[media_edit_fields][download][url] = "http://git.drupal.org/sandbox/jaci
 projects[media_edit_fields][download][branch] = "master"
 projects[media_edit_fields][subdir] = "contrib"
 
-; Replaces colorbox_file
-projects[media_colorbox][type] = "module"
-projects[media_colorbox][version] = "1.0"
-projects[media_colorbox][download][type] = "git"
-projects[media_colorbox][download][url] = "git@atlassian-bamboo-be0.socialhistoryservices.org:colorbox_file.git"
-projects[media_colorbox][download][branch] = "master"
-projects[media_colorbox][subdir] = "contrib"
-
 projects[iish_blocks][version] = "1.0"
 projects[iish_blocks][type] = "module"
 projects[iish_blocks][download][type] = "git"
@@ -262,26 +258,26 @@ projects[iisg][download][branch] = "master"
 ; Third party libraries, stored in a local git repository.
 libraries[ckeditor][type] = libraries
 libraries[ckeditor][download][type] = "git"
-libraries[ckeditor][download][url] = "git@atlassian-bamboo-be0.socialhistoryservices.org:ckeditor.git"
-libraries[ckeditor][download][branch] = "master"
+libraries[ckeditor][download][url] = "https://github.com/ckeditor/ckeditor-releases.git"
+libraries[ckeditor][download][branch] = "full/4.5.x"
 libraries[ckeditor][directory_name] = "ckeditor"
 
-libraries[jwplayer][type] = libraries
-libraries[jwplayer][download][type] = "git"
-libraries[jwplayer][download][url] = "git@atlassian-bamboo-be0.socialhistoryservices.org:jwplayer.git"
-libraries[jwplayer][download][branch] = "master"
-libraries[jwplayer][directory_name] = "jwplayer"
+;libraries[jwplayer][type] = libraries
+;libraries[jwplayer][download][type] = "git"
+;libraries[jwplayer][download][url] = "git@atlassian-bamboo-be0.socialhistoryservices.org:jwplayer.git"
+;libraries[jwplayer][download][branch] = "master"
+;libraries[jwplayer][directory_name] = "jwplayer"
 
 libraries[colorbox][type] = libraries
 libraries[colorbox][download][type] = "git"
-libraries[colorbox][download][url] = "git@atlassian-bamboo-be0.socialhistoryservices.org:colorbox.git"
-libraries[colorbox][download][branch] = "master"
+libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox.git"
+libraries[colorbox][download][branch] = "1.x"
 libraries[colorbox][directory_name] = "colorbox"
 
 libraries[phpexcel][type] = libraries
 libraries[phpexcel][download][type] = "git"
-libraries[phpexcel][download][url] = "git@atlassian-bamboo-be0.socialhistoryservices.org:phpexcel.git"
-libraries[phpexcel][download][branch] = "1.8.3"
+libraries[phpexcel][download][url] = "https://github.com/PHPOffice/PHPExcel.git"
+libraries[phpexcel][download][branch] = "1.8"
 libraries[phpexcel][directory_name] = "PHPExcel"
 
 ;libraries[geophp][type] = libraries
