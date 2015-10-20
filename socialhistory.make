@@ -94,9 +94,6 @@ projects[imagemagick][version] = "1.0"
 projects[job_scheduler][subdir] = "contrib"
 projects[job_scheduler][version] = "2.0-alpha3"
 
-projects[jw_player][subdir] = "contrib"
-projects[jw_player][version] = "1.0-alpha1"
-
 projects[l10n_update][subdir] = "contrib"
 projects[l10n_update][version] = "2.0"
 
@@ -206,13 +203,6 @@ projects[xmlsitemap][version] = "2.2"
 
 ; Custom modules
 
-; https://www.drupal.org/node/1395584#comment-5946842
-projects[jw_player_poster][type] = "module"
-projects[jw_player_poster][version] = "1.0"
-projects[jw_player_poster][download][type] = "get"
-projects[jw_player_poster][download][url] = "https://www.drupal.org/files/jw_player_poster.zip"
-projects[jw_player_poster][subdir] = "contrib"
-
 ; https://www.drupal.org/sandbox/jacintocapote/2274777
 projects[media_edit_fields][type] = "module"
 projects[media_edit_fields][version] = "1.0"
@@ -261,12 +251,6 @@ libraries[ckeditor][download][type] = "git"
 libraries[ckeditor][download][url] = "https://github.com/ckeditor/ckeditor-releases.git"
 libraries[ckeditor][download][branch] = "full/4.5.x"
 libraries[ckeditor][directory_name] = "ckeditor"
-
-;libraries[jwplayer][type] = libraries
-;libraries[jwplayer][download][type] = "git"
-;libraries[jwplayer][download][url] = "git@atlassian-bamboo-be0.socialhistoryservices.org:jwplayer.git"
-;libraries[jwplayer][download][branch] = "master"
-;libraries[jwplayer][directory_name] = "jwplayer"
 
 libraries[colorbox][type] = libraries
 libraries[colorbox][download][type] = "git"
