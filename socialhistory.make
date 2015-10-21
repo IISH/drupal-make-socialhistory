@@ -94,6 +94,9 @@ projects[imagemagick][version] = "1.0"
 projects[job_scheduler][subdir] = "contrib"
 projects[job_scheduler][version] = "2.0-alpha3"
 
+projects[jquery_update][subdir] = "contrib"
+projects[jquery_update][version] = "3.0-alpha2"
+
 projects[l10n_update][subdir] = "contrib"
 projects[l10n_update][version] = "2.0"
 
@@ -245,7 +248,7 @@ projects[iisg][download][url] = "https://github.com/IISH/drupal-theme-socialhist
 projects[iisg][download][branch] = "master"
 
 
-; Third party libraries, stored in a local git repository.
+; Third party libraries.
 libraries[ckeditor][type] = libraries
 libraries[ckeditor][download][type] = "git"
 libraries[ckeditor][download][url] = "https://github.com/ckeditor/ckeditor-releases.git"
@@ -271,6 +274,22 @@ libraries[jquery.cycle][type] = libraries
 libraries[jquery.cycle][download][type] = git
 libraries[jquery.cycle][download][url] = https://github.com/malsup/cycle.git
 libraries[jquery.cycle][directory_name] = "jquery.cycle"
+
+libraries[superfish][type] = libraries
+libraries[superfish][download][type] = file
+libraries[superfish][download][url] = https://github.com/joeldbirch/superfish/archive/1.7.4.zip
+libraries[superfish][download][subtree] = "superfish-1.7.4/src/js"
+libraries[superfish][directory_name] = "superfish"
+
+libraries[jquery.hoverIntent][type] = libraries
+libraries[jquery.hoverIntent][download][type] = git
+libraries[jquery.hoverIntent][download][url] = https://github.com/briancherne/jquery-hoverIntent.git
+libraries[jquery.hoverIntent][directory_name] = "jquery.hoverIntent"
+
+libraries[jquery.bgiframe][type] = libraries
+libraries[jquery.bgiframe][download][type] = git
+libraries[jquery.bgiframe][download][url] = https://github.com/brandonaaron/bgiframe.git
+libraries[jquery.bgiframe][directory_name] = "jquery.bgiframe"
 
 libraries[mailchimp][type] = libraries
 libraries[mailchimp][download][type] = "get"
