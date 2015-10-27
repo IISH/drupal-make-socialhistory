@@ -235,6 +235,13 @@ projects[iish_language][download][url] = "https://github.com/IISH/drupal-module-
 projects[iish_language][download][branch] = "master"
 projects[iish_language][subdir] = "custom"
 
+projects[iish_donations][version] = "1.0"
+projects[iish_donations][type] = "module"
+projects[iish_donations][download][type] = "git"
+projects[iish_donations][download][url] = "https://github.com/IISH/drupal-module-donations.git"
+projects[iish_donations][download][branch] = "test"
+projects[iish_donations][subdir] = "custom"
+
 
 ; Drupal Themes
 projects[omega][version] = "3.1"
