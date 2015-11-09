@@ -2,11 +2,9 @@
 core = 7.x
 
 api = 2
-projects[drupal][version] = "7.38"
-
+projects[drupal][version] = "7.41"
 
 ; Drupal Modules
-
 projects[advanced_help][subdir] = "contrib"
 projects[advanced_help][version] = "1.3"
 
@@ -20,19 +18,19 @@ projects[captcha][subdir] = "contrib"
 projects[captcha][version] = "1.3"
 
 projects[colorbox][subdir] = "contrib"
-projects[colorbox][version] = "2.9"
+projects[colorbox][version] = "2.10"
 
 projects[context][subdir] = "contrib"
 projects[context][version] = "3.6"
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.7"
+projects[ctools][version] = "1.9"
 
 projects[custom_search][subdir] = "contrib"
 projects[custom_search][version] = "1.18"
 
 projects[date][subdir] = "contrib"
-projects[date][version] = "2.8"
+projects[date][version] = "2.9"
 
 projects[delta][subdir] = "contrib"
 projects[delta][version] = "3.0-beta11"
@@ -65,7 +63,7 @@ projects[feeds_xpathparser][subdir] = "contrib"
 projects[feeds_xpathparser][version] = "1.1"
 
 projects[field_collection][subdir] = "contrib"
-projects[field_collection][version] = "1.0-beta8"
+projects[field_collection][version] = "1.0-beta10"
 
 projects[field_group][subdir] = "contrib"
 projects[field_group][version] = "1.4"
@@ -80,7 +78,7 @@ projects[forward][subdir] = "contrib"
 projects[forward][version] = "1.4"
 
 projects[google_analytics][subdir] = "contrib"
-projects[google_analytics][version] = "1.4"
+projects[google_analytics][version] = "2.1"
 
 projects[i18n][subdir] = "contrib"
 projects[i18n][version] = "1.13"
@@ -132,7 +130,7 @@ projects[menu_position][subdir] = "contrib"
 projects[menu_position][version] = "1.1"
 
 projects[metatag][subdir] = "contrib"
-projects[metatag][version] = "1.6"
+projects[metatag][version] = "1.7"
 
 projects[nice_menus][subdir] = "contrib"
 projects[nice_menus][version] = "2.5"
@@ -141,7 +139,7 @@ projects[nodequeue][subdir] = "contrib"
 projects[nodequeue][version] = "2.0"
 
 projects[pathauto][subdir] = "contrib"
-projects[pathauto][version] = "1.2"
+projects[pathauto][version] = "1.3"
 
 projects[print][subdir] = "contrib"
 projects[print][version] = "1.3"
@@ -198,7 +196,7 @@ projects[webform][subdir] = "contrib"
 projects[webform][version] = "3.24"
 
 projects[wysiwyg][subdir] = "contrib"
-projects[wysiwyg][version] = "2.x-dev"
+projects[wysiwyg][version] = "2.2"
 
 projects[xmlsitemap][subdir] = "contrib"
 projects[xmlsitemap][version] = "2.2"
