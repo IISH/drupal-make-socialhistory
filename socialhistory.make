@@ -156,6 +156,9 @@ projects[realname][version] = "1.2"
 projects[references][subdir] = "contrib"
 projects[references][version] = "2.1"
 
+projects[responsive_menus][subdir] = "contrib"
+projects[responsive_menus][version] = "1.5"
+
 projects[service_links][subdir] = "contrib"
 projects[service_links][version] = "2.3"
 
