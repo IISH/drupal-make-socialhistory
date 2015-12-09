@@ -239,12 +239,12 @@ projects[iish_language][download][url] = "https://github.com/IISH/drupal-module-
 projects[iish_language][download][branch] = "master"
 projects[iish_language][subdir] = "custom"
 
-projects[iish_donations][version] = "1.0"
-projects[iish_donations][type] = "module"
-projects[iish_donations][download][type] = "git"
-projects[iish_donations][download][url] = "https://github.com/IISH/drupal-module-donations.git"
-projects[iish_donations][download][branch] = "master"
-projects[iish_donations][subdir] = "custom"
+projects[iish_payments][version] = "1.0"
+projects[iish_payments][type] = "module"
+projects[iish_payments][download][type] = "git"
+projects[iish_payments][download][url] = "https://github.com/IISH/drupal-module-payments.git"
+projects[iish_payments][download][branch] = "master"
+projects[iish_payments][subdir] = "custom"
 
 
 ; Drupal Themes
