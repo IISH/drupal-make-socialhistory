@@ -145,7 +145,7 @@ projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.3"
 
 projects[print][subdir] = "contrib"
-projects[print][version] = "1.3"
+projects[print][version] = "2.0"
 
 projects[profile2][subdir] = "contrib"
 projects[profile2][version] = "1.3"
@@ -188,7 +188,7 @@ projects[variable][subdir] = "contrib"
 projects[variable][version] = "2.5"
 
 projects[views][subdir] = "contrib"
-projects[views][version] = "3.11"
+projects[views][version] = "3.13"
 
 projects[views_bulk_operations][subdir] = "contrib"
 projects[views_bulk_operations][version] = "3.3"
