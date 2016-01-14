@@ -165,8 +165,8 @@ projects[responsive_menus][version] = "1.5"
 projects[service_links][subdir] = "contrib"
 projects[service_links][version] = "2.3"
 
-projects[smtp][subdir] = "contrib"
-projects[smtp][version] = "1.3"
+projects[just_smtp][subdir] = "contrib"
+projects[just_smtp][version] = "7.x-1.0-beta1"
 
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
@@ -314,6 +314,9 @@ libraries[mailchimp][download][url] = "https://bitbucket.org/mailchimp/mailchimp
 libraries[mailchimp][directory_name] = "mailchimp"
 libraries[mailchimp][destination] = "libraries"
 
-;libraries[cas][type] = libraries
-;libraries[cas][directory_name] = "CAS"
+libraries[phpmailer][type] = libraries
+libraries[phpmailer][download][type] = "get"
+libraries[phpmailer][download][url] = "https://github.com/PHPMailer/PHPMailer/archive/v5.2.14.zip"
+libraries[phpmailer][directory_name] = "phpmailer"
+libraries[phpmailer][destination] = "libraries"
 
