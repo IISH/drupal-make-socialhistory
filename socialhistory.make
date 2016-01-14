@@ -6,7 +6,7 @@ projects[drupal][version] = "7.41"
 
 ; Drupal Modules
 projects[ldap][subdir] = "contrib"
-projects[ldap][version] = "2.0-beta10"
+projects[ldap][version] = "2.0-beta8"
 
 projects[advanced_help][subdir] = "contrib"
 projects[advanced_help][version] = "1.3"
