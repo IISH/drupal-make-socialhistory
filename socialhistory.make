@@ -5,8 +5,6 @@ api = 2
 projects[drupal][version] = "7.41"
 
 ; Drupal Modules
-projects[ldap][subdir] = "contrib"
-projects[ldap][version] = "2.0-beta8"
 
 projects[advanced_help][subdir] = "contrib"
 projects[advanced_help][version] = "1.3"
@@ -101,6 +99,9 @@ projects[jquery_update][version] = "3.0-alpha3"
 projects[l10n_update][subdir] = "contrib"
 projects[l10n_update][version] = "2.0"
 
+projects[ldap][subdir] = "contrib"
+projects[ldap][version] = "2.0-beta8"
+
 projects[libraries][subdir] = "contrib"
 projects[libraries][version] = "2.2"
 
@@ -109,9 +110,6 @@ projects[link][version] = "1.3"
 
 projects[mailchimp][subdir] = "contrib"
 projects[mailchimp][version] = "2.12"
-
-projects[mail_debugger][subdir] = "contrib"
-projects[mail_debugger][version] = "3.1"
 
 projects[media][subdir] = "contrib"
 projects[media][version] = "1.5"
