@@ -6,7 +6,7 @@ projects[drupal][version] = "7.41"
 
 ; Drupal Modules
 projects[ldap][subdir] = "contrib"
-projects[ldap][version] = "2.0-beta8"
+projects[ldap][version] = "2.0-beta10"
 
 projects[advanced_help][subdir] = "contrib"
 projects[advanced_help][version] = "1.3"
@@ -30,7 +30,7 @@ projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.9"
 
 projects[custom_search][subdir] = "contrib"
-projects[custom_search][version] = "1.18"
+projects[custom_search][version] = "1.20"
 
 projects[date][subdir] = "contrib"
 projects[date][version] = "2.9"
@@ -69,7 +69,7 @@ projects[field_collection][subdir] = "contrib"
 projects[field_collection][version] = "1.0-beta8"
 
 projects[field_group][subdir] = "contrib"
-projects[field_group][version] = "1.4"
+projects[field_group][version] = "1.5"
 
 projects[field_slideshow][subdir] = "contrib"
 projects[field_slideshow][version] = "1.82"
@@ -78,7 +78,7 @@ projects[follow][subdir] = "contrib"
 projects[follow][version] = "2.0-alpha1"
 
 projects[forward][subdir] = "contrib"
-projects[forward][version] = "1.4"
+projects[forward][version] = "2.1"
 
 projects[google_analytics][subdir] = "contrib"
 projects[google_analytics][version] = "2.1"
@@ -96,7 +96,7 @@ projects[job_scheduler][subdir] = "contrib"
 projects[job_scheduler][version] = "2.0-alpha3"
 
 projects[jquery_update][subdir] = "contrib"
-projects[jquery_update][version] = "3.0-alpha2"
+projects[jquery_update][version] = "3.0-alpha3"
 
 projects[l10n_update][subdir] = "contrib"
 projects[l10n_update][version] = "2.0"
@@ -109,6 +109,9 @@ projects[link][version] = "1.3"
 
 projects[mailchimp][subdir] = "contrib"
 projects[mailchimp][version] = "2.12"
+
+projects[mail_debugger][subdir] = "contrib"
+projects[mail_debugger][version] = "3.1"
 
 projects[media][subdir] = "contrib"
 projects[media][version] = "1.5"
@@ -130,7 +133,7 @@ projects[menu_block][subdir] = "contrib"
 projects[menu_block][version] = "2.7"
 
 projects[menu_position][subdir] = "contrib"
-projects[menu_position][version] = "1.1"
+projects[menu_position][version] = "1.2"
 
 projects[metatag][subdir] = "contrib"
 projects[metatag][version] = "1.7"
@@ -211,12 +214,12 @@ projects[xmlsitemap][version] = "2.2"
 ; Custom modules
 
 ; https://www.drupal.org/sandbox/jacintocapote/2274777
-projects[media_edit_fields][type] = "module"
-projects[media_edit_fields][version] = "1.0"
-projects[media_edit_fields][download][type] = "git"
-projects[media_edit_fields][download][url] = "http://git.drupal.org/sandbox/jacintocapote/2274777.git"
-projects[media_edit_fields][download][branch] = "master"
-projects[media_edit_fields][subdir] = "contrib"
+;projects[media_edit_fields][type] = "module"
+;projects[media_edit_fields][version] = "1.0"
+;projects[media_edit_fields][download][type] = "git"
+;projects[media_edit_fields][download][url] = "http://git.drupal.org/sandbox/jacintocapote/2274777.git"
+;projects[media_edit_fields][download][branch] = "master"
+;projects[media_edit_fields][subdir] = "contrib"
 
 projects[iish_blocks][version] = "1.0"
 projects[iish_blocks][type] = "module"
