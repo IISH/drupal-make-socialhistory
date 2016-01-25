@@ -18,6 +18,9 @@ projects[birthdays][version] = "1.x-dev"
 projects[captcha][subdir] = "contrib"
 projects[captcha][version] = "1.3"
 
+projects[ckeditor][subdir] = "contrib"
+projects[ckeditor][version] = "1.17"
+
 projects[colorbox][subdir] = "contrib"
 projects[colorbox][version] = "2.10"
 
