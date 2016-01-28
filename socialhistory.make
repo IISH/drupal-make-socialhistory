@@ -309,10 +309,10 @@ libraries[jquery.bgiframe][download][url] = https://github.com/brandonaaron/bgif
 libraries[jquery.bgiframe][directory_name] = "jquery.bgiframe"
 
 libraries[mailchimp][type] = libraries
-;libraries[mailchimp][download][type] = "get"
-;libraries[mailchimp][download][url] = "https://bitbucket.org/mailchimp/mailchimp-api-php/get/2.0.6.zip"
-libraries[mailchimp][download][type] = "git"
-libraries[mailchimp][download][url] = "https://bitbucket.org/mailchimp/mailchimp-api-php.git"
+libraries[mailchimp][download][type] = "get"
+libraries[mailchimp][download][url] = "https://bitbucket.org/mailchimp/mailchimp-api-php/get/2.0.6.zip"
+;libraries[mailchimp][download][type] = "git"
+;libraries[mailchimp][download][url] = "https://bitbucket.org/mailchimp/mailchimp-api-php.git"
 libraries[mailchimp][directory_name] = "mailchimp"
 libraries[mailchimp][destination] = "libraries"
 
