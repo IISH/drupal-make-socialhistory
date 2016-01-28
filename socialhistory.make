@@ -4,8 +4,14 @@ core = 7.x
 api = 2
 projects[drupal][version] = "7.41"
 
-; Drupal Modules
+; Third party libraries, stored in a local git repository.
+libraries[ckeditor][type] = libraries
+libraries[ckeditor][download][type] = "git"
+libraries[ckeditor][download][url] = "git://github.com/ckeditor/ckeditor-releases.git"
+libraries[ckeditor][download][branch] = "full/4.5.x"
+libraries[ckeditor][directory_name] = "ckeditor"
 
+; Drupal Modules
 projects[advanced_help][subdir] = "contrib"
 projects[advanced_help][version] = "1.3"
 
@@ -18,8 +24,8 @@ projects[birthdays][version] = "1.x-dev"
 projects[captcha][subdir] = "contrib"
 projects[captcha][version] = "1.3"
 
-projects[ckeditor][subdir] = "contrib"
-projects[ckeditor][version] = "1.17"
+;projects[ckeditor][subdir] = "contrib"
+;projects[ckeditor][version] = "1.17"
 
 projects[colorbox][subdir] = "contrib"
 projects[colorbox][version] = "2.10"
