@@ -47,9 +47,15 @@ libraries[jquery.bgiframe][download][type] = git
 libraries[jquery.bgiframe][download][url] = https://github.com/brandonaaron/bgiframe.git
 libraries[jquery.bgiframe][directory_name] = "jquery.bgiframe"
 
+;libraries[mailchimp][type] = libraries
+;libraries[mailchimp][download][type] = "get"
+;libraries[mailchimp][download][url] = "https://bitbucket.org/mailchimp/mailchimp-api-php/get/2.0.6.zip"
+;libraries[mailchimp][directory_name] = "mailchimp"
+;libraries[mailchimp][destination] = "libraries"
+
 libraries[mailchimp][type] = libraries
 libraries[mailchimp][download][type] = "get"
-libraries[mailchimp][download][url] = "https://bitbucket.org/mailchimp/mailchimp-api-php/get/2.0.6.zip"
+libraries[mailchimp][download][url] = "http://apidocs.mailchimp.com/api/downloads/mailchimp-api-class.zip"
 libraries[mailchimp][directory_name] = "mailchimp"
 libraries[mailchimp][destination] = "libraries"
 
@@ -160,8 +166,7 @@ projects[link][subdir] = "contrib"
 projects[link][version] = "1.3"
 
 projects[mailchimp][subdir] = "contrib"
-;projects[mailchimp][version] = "2.12"
-projects[mailchimp][version] = "3.6"
+projects[mailchimp][version] = "2.12"
 
 projects[media][subdir] = "contrib"
 projects[media][version] = "1.5"
