@@ -4,6 +4,58 @@ core = 7.x
 api = 2
 projects[drupal][version] = "7.41"
 
+; Third party libraries.
+libraries[ckeditor][type] = libraries
+libraries[ckeditor][download][type] = "git"
+libraries[ckeditor][download][url] = "https://github.com/ckeditor/ckeditor-releases.git"
+libraries[ckeditor][download][branch] = "full/4.5.x"
+libraries[ckeditor][directory_name] = "ckeditor"
+
+libraries[colorbox][type] = libraries
+libraries[colorbox][download][type] = "git"
+libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox.git"
+libraries[colorbox][download][branch] = "1.x"
+libraries[colorbox][directory_name] = "colorbox"
+
+libraries[phpexcel][type] = libraries
+libraries[phpexcel][download][type] = "git"
+libraries[phpexcel][download][url] = "https://github.com/PHPOffice/PHPExcel.git"
+libraries[phpexcel][download][branch] = "1.8"
+libraries[phpexcel][directory_name] = "PHPExcel"
+
+;libraries[geophp][type] = libraries
+;libraries[geophp][directory_name] = "geoPHP"
+
+libraries[jquery.cycle][type] = libraries
+libraries[jquery.cycle][download][type] = git
+libraries[jquery.cycle][download][url] = https://github.com/malsup/cycle.git
+libraries[jquery.cycle][directory_name] = "jquery.cycle"
+
+libraries[superfish][type] = libraries
+libraries[superfish][download][type] = file
+libraries[superfish][download][url] = https://github.com/joeldbirch/superfish/archive/1.7.4.zip
+libraries[superfish][download][subtree] = "superfish-1.7.4/src/js"
+libraries[superfish][directory_name] = "superfish"
+
+libraries[jquery.hoverIntent][type] = libraries
+libraries[jquery.hoverIntent][download][type] = git
+libraries[jquery.hoverIntent][download][url] = https://github.com/briancherne/jquery-hoverIntent.git
+libraries[jquery.hoverIntent][directory_name] = "jquery.hoverIntent"
+
+libraries[jquery.bgiframe][type] = libraries
+libraries[jquery.bgiframe][download][type] = git
+libraries[jquery.bgiframe][download][url] = https://github.com/brandonaaron/bgiframe.git
+libraries[jquery.bgiframe][directory_name] = "jquery.bgiframe"
+
+libraries[mailchimp][type] = libraries
+libraries[mailchimp][download][type] = "get"
+libraries[mailchimp][download][url] = "https://bitbucket.org/mailchimp/mailchimp-api-php/get/2.0.6.zip"
+libraries[mailchimp][directory_name] = "mailchimp"
+libraries[mailchimp][destination] = "libraries"
+
+;libraries[cas][type] = libraries
+;libraries[cas][directory_name] = "CAS"
+
 ; Drupal Modules
 projects[advanced_help][subdir] = "contrib"
 projects[advanced_help][version] = "1.3"
@@ -108,7 +160,8 @@ projects[link][subdir] = "contrib"
 projects[link][version] = "1.3"
 
 projects[mailchimp][subdir] = "contrib"
-projects[mailchimp][version] = "2.12"
+;projects[mailchimp][version] = "2.12"
+projects[mailchimp][version] = "3.6"
 
 projects[media][subdir] = "contrib"
 projects[media][version] = "1.5"
@@ -252,10 +305,8 @@ projects[iish_payments][download][url] = "https://github.com/IISH/drupal-module-
 projects[iish_payments][download][branch] = "master"
 projects[iish_payments][subdir] = "custom"
 
-
 ; Drupal Themes
 projects[omega][version] = "3.1"
-
 
 ; Custom themes
 projects[iisg][version] = "1.0"
@@ -263,58 +314,3 @@ projects[iisg][type] = "theme"
 projects[iisg][download][type] = "git"
 projects[iisg][download][url] = "https://github.com/IISH/drupal-theme-socialhistory.git"
 projects[iisg][download][branch] = "master"
-
-
-; Third party libraries.
-libraries[ckeditor][type] = libraries
-libraries[ckeditor][download][type] = "git"
-libraries[ckeditor][download][url] = "https://github.com/ckeditor/ckeditor-releases.git"
-libraries[ckeditor][download][branch] = "full/4.5.x"
-libraries[ckeditor][directory_name] = "ckeditor"
-
-libraries[colorbox][type] = libraries
-libraries[colorbox][download][type] = "git"
-libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox.git"
-libraries[colorbox][download][branch] = "1.x"
-libraries[colorbox][directory_name] = "colorbox"
-
-libraries[phpexcel][type] = libraries
-libraries[phpexcel][download][type] = "git"
-libraries[phpexcel][download][url] = "https://github.com/PHPOffice/PHPExcel.git"
-libraries[phpexcel][download][branch] = "1.8"
-libraries[phpexcel][directory_name] = "PHPExcel"
-
-;libraries[geophp][type] = libraries
-;libraries[geophp][directory_name] = "geoPHP"
-
-libraries[jquery.cycle][type] = libraries
-libraries[jquery.cycle][download][type] = git
-libraries[jquery.cycle][download][url] = https://github.com/malsup/cycle.git
-libraries[jquery.cycle][directory_name] = "jquery.cycle"
-
-libraries[superfish][type] = libraries
-libraries[superfish][download][type] = file
-libraries[superfish][download][url] = https://github.com/joeldbirch/superfish/archive/1.7.4.zip
-libraries[superfish][download][subtree] = "superfish-1.7.4/src/js"
-libraries[superfish][directory_name] = "superfish"
-
-libraries[jquery.hoverIntent][type] = libraries
-libraries[jquery.hoverIntent][download][type] = git
-libraries[jquery.hoverIntent][download][url] = https://github.com/briancherne/jquery-hoverIntent.git
-libraries[jquery.hoverIntent][directory_name] = "jquery.hoverIntent"
-
-libraries[jquery.bgiframe][type] = libraries
-libraries[jquery.bgiframe][download][type] = git
-libraries[jquery.bgiframe][download][url] = https://github.com/brandonaaron/bgiframe.git
-libraries[jquery.bgiframe][directory_name] = "jquery.bgiframe"
-
-libraries[mailchimp][type] = libraries
-libraries[mailchimp][download][type] = "get"
-libraries[mailchimp][download][url] = "https://bitbucket.org/mailchimp/mailchimp-api-php/get/2.0.6.zip"
-;libraries[mailchimp][download][type] = "git"
-;libraries[mailchimp][download][url] = "https://bitbucket.org/mailchimp/mailchimp-api-php.git"
-libraries[mailchimp][directory_name] = "mailchimp"
-libraries[mailchimp][destination] = "libraries"
-
-;libraries[cas][type] = libraries
-;libraries[cas][directory_name] = "CAS"
