@@ -117,6 +117,9 @@ projects[mailchimp][version] = "2.12"
 projects[media][subdir] = "contrib"
 projects[media][version] = "1.5"
 
+projects[media_ckeditor][subdir] = "contrib"
+projects[media_ckeditor][version] = "2.0-alpha1"
+
 ; Replaces colorbox_file
 projects[media_colorbox][subdir] = "contrib"
 projects[media_colorbox][version] = "1.0-rc4"
