@@ -4,13 +4,6 @@ core = 7.x
 api = 2
 projects[drupal][version] = "7.41"
 
-; Third party libraries, stored in a local git repository.
-libraries[ckeditor][type] = libraries
-libraries[ckeditor][download][type] = "git"
-libraries[ckeditor][download][url] = "git://github.com/ckeditor/ckeditor-releases.git"
-libraries[ckeditor][download][branch] = "full/4.5.x"
-libraries[ckeditor][directory_name] = "ckeditor"
-
 ; Drupal Modules
 projects[advanced_help][subdir] = "contrib"
 projects[advanced_help][version] = "1.3"
@@ -23,9 +16,6 @@ projects[birthdays][version] = "1.x-dev"
 
 projects[captcha][subdir] = "contrib"
 projects[captcha][version] = "1.3"
-
-;projects[ckeditor][subdir] = "contrib"
-;projects[ckeditor][version] = "1.17"
 
 projects[colorbox][subdir] = "contrib"
 projects[colorbox][version] = "2.10"
@@ -319,7 +309,12 @@ libraries[jquery.bgiframe][download][url] = https://github.com/brandonaaron/bgif
 libraries[jquery.bgiframe][directory_name] = "jquery.bgiframe"
 
 libraries[mailchimp][type] = libraries
-libraries[mailchimp][download][type] = "get"
-libraries[mailchimp][download][url] = "https://bitbucket.org/mailchimp/mailchimp-api-php/get/2.0.6.zip"
+;libraries[mailchimp][download][type] = "get"
+;libraries[mailchimp][download][url] = "https://bitbucket.org/mailchimp/mailchimp-api-php/get/2.0.6.zip"
+libraries[mailchimp][download][type] = "git"
+libraries[mailchimp][download][url] = "https://bitbucket.org/mailchimp/mailchimp-api-php.git"
 libraries[mailchimp][directory_name] = "mailchimp"
 libraries[mailchimp][destination] = "libraries"
+
+;libraries[cas][type] = libraries
+;libraries[cas][directory_name] = "CAS"
