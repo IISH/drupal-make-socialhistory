@@ -266,8 +266,8 @@ projects[iisg][download][branch] = "master"
 ; Third party libraries.
 libraries[ckeditor][type] = libraries
 libraries[ckeditor][download][type] = "git"
-libraries[ckeditor][download][url] = "https://github.com/ckeditor/ckeditor-releases.git"
-libraries[ckeditor][download][branch] = "full/4.5.x"
+libraries[ckeditor][download][url] = "https://github.com/iish/drupal-library-ckeditor.git"
+libraries[ckeditor][download][branch] = "3.6.0"
 libraries[ckeditor][directory_name] = "ckeditor"
 
 libraries[colorbox][type] = libraries
