@@ -7,8 +7,8 @@ projects[drupal][version] = "7.41"
 ; Third party libraries.
 libraries[ckeditor][type] = libraries
 libraries[ckeditor][download][type] = "git"
-libraries[ckeditor][download][url] = "https://github.com/ckeditor/ckeditor-releases.git"
-libraries[ckeditor][download][branch] = "full/4.5.x"
+libraries[ckeditor][download][url] = "https://github.com/iish/drupal-library-ckeditor.git"
+libraries[ckeditor][download][branch] = "3.6.0"
 libraries[ckeditor][directory_name] = "ckeditor"
 
 libraries[colorbox][type] = libraries
@@ -75,9 +75,6 @@ projects[birthdays][version] = "1.x-dev"
 
 projects[captcha][subdir] = "contrib"
 projects[captcha][version] = "1.3"
-
-projects[ckeditor][subdir] = "contrib"
-projects[ckeditor][version] = "1.17"
 
 projects[colorbox][subdir] = "contrib"
 projects[colorbox][version] = "2.10"
@@ -174,9 +171,6 @@ projects[mailchimp][version] = "2.12"
 
 projects[media][subdir] = "contrib"
 projects[media][version] = "1.5"
-
-projects[media_ckeditor][subdir] = "contrib"
-projects[media_ckeditor][version] = "2.0-alpha1"
 
 ; Replaces colorbox_file
 projects[media_colorbox][subdir] = "contrib"
