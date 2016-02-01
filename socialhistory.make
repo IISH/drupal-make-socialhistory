@@ -53,6 +53,7 @@ libraries[jquery.bgiframe][directory_name] = "jquery.bgiframe"
 ;libraries[mailchimp][directory_name] = "mailchimp"
 ;libraries[mailchimp][destination] = "libraries"
 
+; mailchimp API library
 libraries[mailchimp][type] = libraries
 libraries[mailchimp][download][type] = "get"
 libraries[mailchimp][download][url] = "http://apidocs.mailchimp.com/api/downloads/mailchimp-api-class.zip"
@@ -74,6 +75,9 @@ projects[birthdays][version] = "1.x-dev"
 
 projects[captcha][subdir] = "contrib"
 projects[captcha][version] = "1.3"
+
+projects[ckeditor][subdir] = "contrib"
+projects[ckeditor][version] = "1.17"
 
 projects[colorbox][subdir] = "contrib"
 projects[colorbox][version] = "2.10"
@@ -270,7 +274,6 @@ projects[wysiwyg][version] = "2.2"
 
 projects[xmlsitemap][subdir] = "contrib"
 projects[xmlsitemap][version] = "2.2"
-
 
 ; Custom modules
 
