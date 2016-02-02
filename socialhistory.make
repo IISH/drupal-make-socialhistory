@@ -47,13 +47,13 @@ libraries[jquery.bgiframe][download][type] = git
 libraries[jquery.bgiframe][download][url] = https://github.com/brandonaaron/bgiframe.git
 libraries[jquery.bgiframe][directory_name] = "jquery.bgiframe"
 
+; mailchimp API library
+; don't use the new version but the old version
 ;libraries[mailchimp][type] = libraries
 ;libraries[mailchimp][download][type] = "get"
 ;libraries[mailchimp][download][url] = "https://bitbucket.org/mailchimp/mailchimp-api-php/get/2.0.6.zip"
 ;libraries[mailchimp][directory_name] = "mailchimp"
 ;libraries[mailchimp][destination] = "libraries"
-
-; mailchimp API library
 libraries[mailchimp][type] = libraries
 libraries[mailchimp][download][type] = "get"
 libraries[mailchimp][download][url] = "http://apidocs.mailchimp.com/api/downloads/mailchimp-api-class.zip"
@@ -172,7 +172,6 @@ projects[mailchimp][version] = "2.12"
 projects[media][subdir] = "contrib"
 projects[media][version] = "1.5"
 
-; Replaces colorbox_file
 projects[media_colorbox][subdir] = "contrib"
 projects[media_colorbox][version] = "1.0-rc4"
 
