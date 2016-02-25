@@ -8,7 +8,7 @@ projects[drupal][version] = "7.41"
 libraries[ckeditor][type] = libraries
 libraries[ckeditor][download][type] = "git"
 libraries[ckeditor][download][url] = "https://github.com/iish/drupal-library-ckeditor.git"
-libraries[ckeditor][download][branch] = "3.6.0"
+libraries[ckeditor][download][branch] = "4.5"
 libraries[ckeditor][directory_name] = "ckeditor"
 
 libraries[colorbox][type] = libraries
@@ -271,12 +271,13 @@ projects[xmlsitemap][version] = "2.2"
 ; Custom modules
 
 ; https://www.drupal.org/sandbox/jacintocapote/2274777
-;projects[media_edit_fields][type] = "module"
-;projects[media_edit_fields][version] = "1.0"
-;projects[media_edit_fields][download][type] = "git"
-;projects[media_edit_fields][download][url] = "http://git.drupal.org/sandbox/jacintocapote/2274777.git"
-;projects[media_edit_fields][download][branch] = "master"
-;projects[media_edit_fields][subdir] = "contrib"
+; needed for mouse-over
+projects[media_edit_fields][type] = "module"
+projects[media_edit_fields][version] = "1.0"
+projects[media_edit_fields][download][type] = "git"
+projects[media_edit_fields][download][url] = "git://git.drupal.org/sandbox/jacintocapote/2274777.git"
+projects[media_edit_fields][download][branch] = "master"
+projects[media_edit_fields][subdir] = "contrib"
 
 projects[iish_blocks][version] = "1.0"
 projects[iish_blocks][type] = "module"
