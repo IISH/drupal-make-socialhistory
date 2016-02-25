@@ -8,7 +8,7 @@ projects[drupal][version] = "7.41"
 libraries[ckeditor][type] = libraries
 libraries[ckeditor][download][type] = "git"
 libraries[ckeditor][download][url] = "https://github.com/iish/drupal-library-ckeditor.git"
-libraries[ckeditor][download][branch] = "4.5"
+libraries[ckeditor][download][branch] = "master"
 libraries[ckeditor][directory_name] = "ckeditor"
 
 libraries[colorbox][type] = libraries
