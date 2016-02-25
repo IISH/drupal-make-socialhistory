@@ -7,7 +7,7 @@ projects[drupal][version] = "7.43"
 ; Third party libraries.
 libraries[ckeditor][type] = libraries
 libraries[ckeditor][download][type] = "git"
-libraries[ckeditor][download][url] = "https://github.com/iish/drupal-library-ckeditor.git"
+libraries[ckeditor][download][url] = "https://github.com/iish/drupal-library-ckeditor4.git"
 libraries[ckeditor][directory_name] = "ckeditor"
 
 libraries[colorbox][type] = libraries
