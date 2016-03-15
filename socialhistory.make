@@ -171,8 +171,11 @@ projects[mailchimp][version] = "2.12"
 projects[media][subdir] = "contrib"
 projects[media][version] = "1.5"
 
-projects[media_colorbox][subdir] = "contrib"
-projects[media_colorbox][version] = "1.0-rc4"
+projects[colorbox_file][subdir] = "contrib"
+projects[colorbox_file][type] = "module"
+projects[colorbox_file][download][type] = "git"
+projects[colorbox_file][download][url] = "https://github.com/IISH/colorbox_file.git"
+projects[colorbox_file][download][branch] = "master"
 
 projects[media_dailymotion][subdir] = "contrib"
 projects[media_dailymotion][version] = "1.1"
