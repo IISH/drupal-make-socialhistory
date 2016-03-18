@@ -2,13 +2,12 @@
 core = 7.x
 
 api = 2
-projects[drupal][version] = "7.41"
+projects[drupal][version] = "7.43"
 
 ; Third party libraries.
 libraries[ckeditor][type] = libraries
 libraries[ckeditor][download][type] = "git"
-libraries[ckeditor][download][url] = "https://github.com/iish/drupal-library-ckeditor.git"
-libraries[ckeditor][download][branch] = "3.6.0"
+libraries[ckeditor][download][url] = "https://github.com/iish/drupal-library-ckeditor4.git"
 libraries[ckeditor][directory_name] = "ckeditor"
 
 libraries[colorbox][type] = libraries
@@ -47,13 +46,13 @@ libraries[jquery.bgiframe][download][type] = git
 libraries[jquery.bgiframe][download][url] = https://github.com/brandonaaron/bgiframe.git
 libraries[jquery.bgiframe][directory_name] = "jquery.bgiframe"
 
+; mailchimp API library
+; don't use the new version but the old version
 ;libraries[mailchimp][type] = libraries
 ;libraries[mailchimp][download][type] = "get"
 ;libraries[mailchimp][download][url] = "https://bitbucket.org/mailchimp/mailchimp-api-php/get/2.0.6.zip"
 ;libraries[mailchimp][directory_name] = "mailchimp"
 ;libraries[mailchimp][destination] = "libraries"
-
-; mailchimp API library
 libraries[mailchimp][type] = libraries
 libraries[mailchimp][download][type] = "get"
 libraries[mailchimp][download][url] = "http://apidocs.mailchimp.com/api/downloads/mailchimp-api-class.zip"
@@ -172,9 +171,11 @@ projects[mailchimp][version] = "2.12"
 projects[media][subdir] = "contrib"
 projects[media][version] = "1.5"
 
-; Replaces colorbox_file
-projects[media_colorbox][subdir] = "contrib"
-projects[media_colorbox][version] = "1.0-rc4"
+projects[colorbox_file][subdir] = "contrib"
+projects[colorbox_file][type] = "module"
+projects[colorbox_file][download][type] = "git"
+projects[colorbox_file][download][url] = "https://github.com/IISH/colorbox_file.git"
+projects[colorbox_file][download][branch] = "master"
 
 projects[media_dailymotion][subdir] = "contrib"
 projects[media_dailymotion][version] = "1.1"
@@ -222,7 +223,7 @@ projects[service_links][subdir] = "contrib"
 projects[service_links][version] = "2.3"
 
 projects[smtp][subdir] = "contrib"
-projects[smtp][version] = "1.3"
+projects[smtp][version] = "1.x-dev"
 
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
@@ -264,7 +265,7 @@ projects[webform][subdir] = "contrib"
 projects[webform][version] = "3.24"
 
 projects[wysiwyg][subdir] = "contrib"
-projects[wysiwyg][version] = "2.2"
+projects[wysiwyg][version] = "2.x-dev"
 
 projects[xmlsitemap][subdir] = "contrib"
 projects[xmlsitemap][version] = "2.2"
@@ -272,12 +273,13 @@ projects[xmlsitemap][version] = "2.2"
 ; Custom modules
 
 ; https://www.drupal.org/sandbox/jacintocapote/2274777
-;projects[media_edit_fields][type] = "module"
-;projects[media_edit_fields][version] = "1.0"
-;projects[media_edit_fields][download][type] = "git"
-;projects[media_edit_fields][download][url] = "http://git.drupal.org/sandbox/jacintocapote/2274777.git"
-;projects[media_edit_fields][download][branch] = "master"
-;projects[media_edit_fields][subdir] = "contrib"
+; needed for mouse-over
+projects[media_edit_fields][type] = "module"
+projects[media_edit_fields][version] = "1.0"
+projects[media_edit_fields][download][type] = "git"
+projects[media_edit_fields][download][url] = "git://git.drupal.org/sandbox/jacintocapote/2274777.git"
+projects[media_edit_fields][download][branch] = "master"
+projects[media_edit_fields][subdir] = "contrib"
 
 projects[iish_blocks][version] = "1.0"
 projects[iish_blocks][type] = "module"
