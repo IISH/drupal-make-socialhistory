@@ -106,7 +106,7 @@ projects[extlink][subdir] = "contrib"
 projects[extlink][version] = "1.18"
 
 projects[features][subdir] = "contrib"
-projects[features][version] = "1.0"
+projects[features][version] = "2.9"
 
 projects[feeds][subdir] = "contrib"
 projects[feeds][version] = "2.0-beta1"
