@@ -97,7 +97,7 @@ projects[email][subdir] = "contrib"
 projects[email][version] = "1.3"
 
 projects[entity][subdir] = "contrib"
-projects[entity][version] = "1.6"
+projects[entity][version] = "1.7"
 
 projects[entity_path][subdir] = "contrib"
 projects[entity_path][version] = "1.x-dev"
