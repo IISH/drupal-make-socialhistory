@@ -2,7 +2,7 @@
 core = 7.x
 
 api = 2
-projects[drupal][version] = "7.51"
+projects[drupal][version] = "7.53"
 
 ; Third party libraries.
 libraries[ckeditor][type] = libraries
@@ -12,7 +12,7 @@ libraries[ckeditor][directory_name] = "ckeditor"
 
 libraries[colorbox][type] = libraries
 libraries[colorbox][download][type] = "git"
-libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox.git"
+libraries[colorbox][download][url] = "git@github.com:jackmoore/colorbox.git"
 libraries[colorbox][download][branch] = "1.x"
 libraries[colorbox][directory_name] = "colorbox"
 
