@@ -2,17 +2,17 @@
 core = 7.x
 
 api = 2
-projects[drupal][version] = "7.43"
+projects[drupal][version] = "7.54"
 
 ; Third party libraries.
 libraries[ckeditor][type] = libraries
 libraries[ckeditor][download][type] = "git"
-libraries[ckeditor][download][url] = "https://github.com/iish/drupal-library-ckeditor4.git"
+libraries[ckeditor][download][url] = "git@github.com:IISH/drupal-library-ckeditor4.git"
 libraries[ckeditor][directory_name] = "ckeditor"
 
 libraries[colorbox][type] = libraries
 libraries[colorbox][download][type] = "git"
-libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox.git"
+libraries[colorbox][download][url] = "git@github.com:jackmoore/colorbox.git"
 libraries[colorbox][download][branch] = "1.x"
 libraries[colorbox][directory_name] = "colorbox"
 
@@ -76,13 +76,13 @@ projects[captcha][subdir] = "contrib"
 projects[captcha][version] = "1.3"
 
 projects[colorbox][subdir] = "contrib"
-projects[colorbox][version] = "2.10"
+projects[colorbox][version] = "2.12"
 
 projects[context][subdir] = "contrib"
 projects[context][version] = "3.6"
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.9"
+projects[ctools][version] = "1.12"
 
 projects[custom_search][subdir] = "contrib"
 projects[custom_search][version] = "1.20"
@@ -106,7 +106,7 @@ projects[extlink][subdir] = "contrib"
 projects[extlink][version] = "1.18"
 
 projects[features][subdir] = "contrib"
-projects[features][version] = "2.9"
+projects[features][version] = "2.10"
 
 projects[feeds][subdir] = "contrib"
 projects[feeds][version] = "2.0-beta1"
@@ -136,7 +136,7 @@ projects[forward][subdir] = "contrib"
 projects[forward][version] = "2.1"
 
 projects[google_analytics][subdir] = "contrib"
-projects[google_analytics][version] = "2.1"
+projects[google_analytics][version] = "2.3"
 
 projects[i18n][subdir] = "contrib"
 projects[i18n][version] = "1.13"
@@ -157,7 +157,7 @@ projects[l10n_update][subdir] = "contrib"
 projects[l10n_update][version] = "2.0"
 
 projects[ldap][subdir] = "contrib"
-projects[ldap][version] = "2.0-beta8"
+projects[ldap][version] = "2.0-beta11"
 
 projects[libraries][subdir] = "contrib"
 projects[libraries][version] = "2.2"
@@ -174,7 +174,7 @@ projects[media][version] = "1.5"
 projects[colorbox_file][subdir] = "contrib"
 projects[colorbox_file][type] = "module"
 projects[colorbox_file][download][type] = "git"
-projects[colorbox_file][download][url] = "https://github.com/IISH/colorbox_file.git"
+projects[colorbox_file][download][url] = "git@github.com:IISH/colorbox_file.git"
 projects[colorbox_file][download][branch] = "master"
 
 projects[media_dailymotion][subdir] = "contrib"
@@ -251,7 +251,7 @@ projects[variable][subdir] = "contrib"
 projects[variable][version] = "2.5"
 
 projects[views][subdir] = "contrib"
-projects[views][version] = "3.13"
+projects[views][version] = "3.14"
 
 projects[views_bulk_operations][subdir] = "contrib"
 projects[views_bulk_operations][version] = "3.3"
@@ -262,13 +262,13 @@ projects[views_slideshow][subdir] = "contrib"
 projects[views_slideshow][version] = "3.1"
 
 projects[webform][subdir] = "contrib"
-projects[webform][version] = "3.24"
+projects[webform][version] = "3.27"
 
 projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.x-dev"
 
 projects[xmlsitemap][subdir] = "contrib"
-projects[xmlsitemap][version] = "2.2"
+projects[xmlsitemap][version] = "2.3"
 
 ; Custom modules
 
@@ -277,35 +277,35 @@ projects[xmlsitemap][version] = "2.2"
 projects[media_edit_fields][type] = "module"
 projects[media_edit_fields][version] = "1.0"
 projects[media_edit_fields][download][type] = "git"
-projects[media_edit_fields][download][url] = "git://git.drupal.org/sandbox/jacintocapote/2274777.git"
+projects[media_edit_fields][download][url] = "https://git.drupal.org/sandbox/jacintocapote/2274777.git"
 projects[media_edit_fields][download][branch] = "master"
 projects[media_edit_fields][subdir] = "contrib"
 
 projects[iish_blocks][version] = "1.0"
 projects[iish_blocks][type] = "module"
 projects[iish_blocks][download][type] = "git"
-projects[iish_blocks][download][url] = "https://github.com/IISH/drupal-module-blocks.git"
+projects[iish_blocks][download][url] = "git@github.com:IISH/drupal-module-blocks.git"
 projects[iish_blocks][download][branch] = "master"
 projects[iish_blocks][subdir] = "custom"
 
 projects[iish_images][version] = "1.0"
 projects[iish_images][type] = "module"
 projects[iish_images][download][type] = "git"
-projects[iish_images][download][url] = "https://github.com/IISH/drupal-module-images.git"
+projects[iish_images][download][url] = "git@github.com:IISH/drupal-module-images.git"
 projects[iish_images][download][branch] = "master"
 projects[iish_images][subdir] = "custom"
 
 projects[iish_language][version] = "1.0"
 projects[iish_language][type] = "module"
 projects[iish_language][download][type] = "git"
-projects[iish_language][download][url] = "https://github.com/IISH/drupal-module-language.git"
+projects[iish_language][download][url] = "git@github.com:IISH/drupal-module-language.git"
 projects[iish_language][download][branch] = "master"
 projects[iish_language][subdir] = "custom"
 
 projects[iish_payments][version] = "1.0"
 projects[iish_payments][type] = "module"
 projects[iish_payments][download][type] = "git"
-projects[iish_payments][download][url] = "https://github.com/IISH/drupal-module-payments.git"
+projects[iish_payments][download][url] = "git@github.com:IISH/drupal-module-payments.git"
 projects[iish_payments][download][branch] = "master"
 projects[iish_payments][subdir] = "custom"
 
@@ -316,5 +316,5 @@ projects[omega][version] = "3.1"
 projects[iisg][version] = "1.0"
 projects[iisg][type] = "theme"
 projects[iisg][download][type] = "git"
-projects[iisg][download][url] = "https://github.com/IISH/drupal-theme-socialhistory.git"
+projects[iisg][download][url] = "git@github.com:IISH/drupal-theme-socialhistory.git"
 projects[iisg][download][branch] = "master"
