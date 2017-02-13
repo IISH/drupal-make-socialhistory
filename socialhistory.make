@@ -76,13 +76,13 @@ projects[captcha][subdir] = "contrib"
 projects[captcha][version] = "1.3"
 
 projects[colorbox][subdir] = "contrib"
-projects[colorbox][version] = "2.10"
+projects[colorbox][version] = "2.12"
 
 projects[context][subdir] = "contrib"
 projects[context][version] = "3.6"
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.9"
+projects[ctools][version] = "1.12"
 
 projects[custom_search][subdir] = "contrib"
 projects[custom_search][version] = "1.20"
@@ -106,7 +106,7 @@ projects[extlink][subdir] = "contrib"
 projects[extlink][version] = "1.18"
 
 projects[features][subdir] = "contrib"
-projects[features][version] = "2.9"
+projects[features][version] = "2.10"
 
 projects[feeds][subdir] = "contrib"
 projects[feeds][version] = "2.0-beta1"
@@ -262,7 +262,7 @@ projects[views_slideshow][subdir] = "contrib"
 projects[views_slideshow][version] = "3.1"
 
 projects[webform][subdir] = "contrib"
-projects[webform][version] = "3.25"
+projects[webform][version] = "3.27"
 
 projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.x-dev"
