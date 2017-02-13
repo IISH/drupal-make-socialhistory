@@ -277,7 +277,7 @@ projects[xmlsitemap][version] = "2.3"
 projects[media_edit_fields][type] = "module"
 projects[media_edit_fields][version] = "1.0"
 projects[media_edit_fields][download][type] = "git"
-projects[media_edit_fields][download][url] = "git://git.drupal.org/sandbox/jacintocapote/2274777.git"
+projects[media_edit_fields][download][url] = "https://git.drupal.org/sandbox/jacintocapote/2274777.git"
 projects[media_edit_fields][download][branch] = "master"
 projects[media_edit_fields][subdir] = "contrib"
 
