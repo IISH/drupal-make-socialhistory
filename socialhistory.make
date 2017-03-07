@@ -157,7 +157,7 @@ projects[l10n_update][subdir] = "contrib"
 projects[l10n_update][version] = "2.0"
 
 projects[ldap][subdir] = "contrib"
-projects[ldap][version] = "2.0-beta11"
+projects[ldap][version] = "2.0-beta12"
 
 projects[libraries][subdir] = "contrib"
 projects[libraries][version] = "2.2"
@@ -251,7 +251,7 @@ projects[variable][subdir] = "contrib"
 projects[variable][version] = "2.5"
 
 projects[views][subdir] = "contrib"
-projects[views][version] = "3.14"
+projects[views][version] = "3.15"
 
 projects[views_bulk_operations][subdir] = "contrib"
 projects[views_bulk_operations][version] = "3.3"
