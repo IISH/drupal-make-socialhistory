@@ -169,7 +169,7 @@ projects[mailchimp][subdir] = "contrib"
 projects[mailchimp][version] = "2.12"
 
 projects[media][subdir] = "contrib"
-projects[media][version] = "1.5"
+projects[media][version] = "2.0"
 
 projects[colorbox_file][subdir] = "contrib"
 projects[colorbox_file][type] = "module"
@@ -214,7 +214,7 @@ projects[realname][subdir] = "contrib"
 projects[realname][version] = "1.2"
 
 projects[references][subdir] = "contrib"
-projects[references][version] = "2.1"
+projects[references][version] = "2.2"
 
 projects[responsive_menus][subdir] = "contrib"
 projects[responsive_menus][version] = "1.5"
