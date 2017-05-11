@@ -169,7 +169,7 @@ projects[mailchimp][subdir] = "contrib"
 projects[mailchimp][version] = "2.12"
 
 projects[media][subdir] = "contrib"
-projects[media][version] = "2.0"
+projects[media][version] = "2.1"
 
 projects[colorbox_file][subdir] = "contrib"
 projects[colorbox_file][type] = "module"
