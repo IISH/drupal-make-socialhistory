@@ -168,8 +168,9 @@ projects[link][version] = "1.3"
 projects[mailchimp][subdir] = "contrib"
 projects[mailchimp][version] = "2.12"
 
+; media niet updaten naar versie 2 totdat uitgezocht is hoe we de nieuwe versie moeten instellen
 projects[media][subdir] = "contrib"
-projects[media][version] = "2.3"
+projects[media][version] = "1.6"
 
 projects[colorbox_file][subdir] = "contrib"
 projects[colorbox_file][type] = "module"
