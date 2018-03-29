@@ -66,6 +66,9 @@ libraries[mailchimp][destination] = "libraries"
 projects[advanced_help][subdir] = "contrib"
 projects[advanced_help][version] = "1.3"
 
+projects[module_missing_message_fixer][subdir] = "contrib"
+projects[module_missing_message_fixer][version] = "1.7"
+
 projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][version] = "3.1"
 
